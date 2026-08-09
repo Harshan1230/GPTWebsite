@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Marketly - Login</title>
+    <script src='https://cdn.c360a.salesforce.com/beacon/c360a/70d3a9cb-b0b5-4508-a730-c680a7f2ce07/scripts/c360a.min.js'></script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="auth-bg">
+    <div id="header"></div>
+    <main class="auth-wrap">
+        <form id="loginForm" class="auth-card"><span class="eyebrow">WELCOME BACK</span>
+            <h1>Sign in</h1>
+            <p>Login is simulated using browser storage.</p><label>Email<input id="email" type="email"
+                    required></label><label>Password<input id="password" type="password" required></label><button
+                class="btn full" type="submit">Login</button>
+            <p class="auth-foot">Don't have an account? <a href="register.html">Register</a></p>
+        </form>
+    </main>
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+    <script>window.addEventListener('DOMContentLoaded', () => initLogin())</script>
+</body>
+
+</html>
